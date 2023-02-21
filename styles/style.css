@@ -1,0 +1,80 @@
+@import "blue-avatar.css";
+@import "green-avatar.css";
+@import "grey-avatar.css";
+@import "orange-avatar.css";
+@import "pink-avatar.css";
+
+*, *::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body{
+    font-size: 18px;
+    line-height: 1;
+}
+
+.wrapper {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 10px solid #fff;
+}
+
+.avatar img {
+    position: absolute;
+}
+
+
+.avatar__body {
+    bottom: 0;
+    left: 60px;
+}
+
+.avatar__nose {
+    left: 133px;
+    bottom: 70px;
+}
+
+.avatar__glasses {
+    left: 102px;
+    bottom: 75px;
+}
+
+.avatar__teeth {
+    left: 121px;
+    bottom: 45px;
+}
+
+
+.avatar__clothes {
+    left: 60px;
+    bottom: 0px;
+}
+
+.avatar__hair {
+    left: 100px;
+    bottom: 100px;
+}
+.avatar__eyes {
+    left: 115px;
+    bottom: 85px;
+}

@@ -1,0 +1,18 @@
+.pink-avatar {
+    background-color: #FD9DAA;;
+}
+
+.avatar__beard {
+    bottom: 10px;
+    left: 95px;
+}
+
+.avatar__turban {
+    bottom: 80px;
+    left: 87px;
+}
+
+.avatar__pink-teeth{
+    left: 119px;
+    bottom: 41px;
+}

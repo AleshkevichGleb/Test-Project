@@ -1,0 +1,9 @@
+.green-avatar {
+    background-color: #80C43B;
+}
+
+.avatar__hijab {
+    left: 81px;
+    bottom: 0px;
+    z-index: 1;
+}
